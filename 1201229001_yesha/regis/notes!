@@ -1,0 +1,31 @@
+/*<script>
+                         let tombol = document.getElementById("signup");
+                            function klik1(){
+                                 alert('LET IT GO');
+                                }
+                                function klik2(){
+                                    alert('BUDI!!')
+                                }
+                        
+                                tombol.addEventListener("click", klik1);
+                                tombol.addEventListener("click", klik2);
+                            let Regist = document.forms.formRegistrasi;
+                            let name= Regist.elements.txtnama;
+                        
+                            let btn = document.getElementById('txtEmail');
+                            function tampil(){
+                            alert(name.value);
+                            };
+                            let form = document.forms.formregistrasi;
+                            function kirim(){
+                                let name = document.getElementById('txtnama');
+                                if(name.value==''){
+                                    alert('MANA NAMA MU?!');
+                                } else{
+                                    form.submit();
+                                }
+                            }
+                            form.addEventLisstener('sumbit',kirim);
+                            </script>
+*/
+jjj

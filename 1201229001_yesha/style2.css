@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup {
+    background-color: #FFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.signup h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.signup p {
+    font-size: 14px;
+    color: #666;
+}
+
+.signup label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.signup input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signup button {
+    background: #FF6000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+.signup button:hover {
+    background-color: #fbc02d;
+}
+
+.lupapass {
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+.kanan img {
+    max-width: 100%;
+    height: auto;
+}

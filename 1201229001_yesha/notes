@@ -1,0 +1,46 @@
+diet meal's monitor (object): >> nama kelas harus besar
+object >> atribut & method
+- kalkulasi nutrisi (idnutrisi, nama, )
+- user (id, pass, email, username )
+- resep
+--------------------------------------------------
+contoh: keranjang
+-id
+-jumlah
+method:
++transaksi
+---------------------------------------------------
+    // use public >> semua bisa akses
+    // private >> acces only for its class
+    // protected >> inheritance bisa akses, yang lain engga!!
+    // abstrak >> objek tidak bisa (????)
+---------------------------------------------------
+encapsulation >> BUNGKUS!! kelas(kelas, variabel, method) >> agar mudah akses, lebih aman
+class person
+{
+    public $name;
+    public $age;
+    function __construct($n, $a) >> (konstruktor yang isi parameter)
+    {
+        $this->
+    }
+}
+echo $user->username;
+echo $user->nomerpengguna
+------------------------------------------
+
+NEED TO DO :
+- BUAT KELAS DI FILE LAIN
+- ATRIBUT SESUAI DENGAN MASING2
+- FORM NYA SELESAIKAN!!
+
+----PINDAH ISI FORM KE PHP----
+method == POST >> buat ngirim
+if($_SERVER['REQUEST METHOD']== 'POST'){
+
+}
+action >> controller
+var_dump >> semua data
+echo "<pre>"; >> ini supaya jadi tabel!!
+var_dump($_POST);
+echo "</pre>";

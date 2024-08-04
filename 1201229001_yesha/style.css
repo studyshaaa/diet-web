@@ -1,0 +1,222 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    font-family: Arial;
+    color: #F39F5A;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    /* flex > kolom */
+    display: flex;
+    /* rata line navbarnya */
+    line-height: 50px;
+    /* supaya tetep di atas */
+    position: sticky; 
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #FFBB5C;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #6C5F5B;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #FFBB5C;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: #6C5F5B;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-kuning {
+    background: #FFBB5C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;   
+}
+
+a.tbl-kuning:hover {
+    background-color: #FF6000;
+}
+
+a.tbl-oren {
+    background: #FF6000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;  
+}
+
+a.tbl-oren:hover {
+    background-color: #FFBB5C;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.nutrisi-calculate {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nutrisi-pokok {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.nutrisi-pokok img {
+    align-items: center;
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #F39F5A;
+    width: 100%;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+    }
+} 

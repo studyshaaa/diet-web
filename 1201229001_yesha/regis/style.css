@@ -1,0 +1,93 @@
+* {
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(245, 229, 206, 0.849);
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    max-width: 850px;
+    background: #ffffff;
+    border-radius : 15px;
+    box-shadow: 0px 10px 15px rgb(0, 0, 0, 0.1);
+    
+}
+
+.kanan img {
+    align-items: center;
+    width: 80%;
+    border-radius: 50%;
+    
+    margin: 50px 100px 0px 100px;
+    
+}
+.login {
+    margin-left: 200px;
+    width: 400px;
+}
+.form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+form label {
+    font-family: Arial;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+}
+form {
+    color: black;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    box-shadow: 3px 3px 8px rgb(235, 227, 213);
+    outline: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+a.tbl-kuning {
+    background: #FF6000;
+    border-radius: 20px;
+    margin-top: 500px;
+    width: 50%;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;  
+}
+/* a.lupapass {
+    background: #FFBB5C;
+    color: #FFBB5C;
+    border-radius: 110px;
+    margin-top: 500px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 5px 10px 5px 10px; */
+
+
